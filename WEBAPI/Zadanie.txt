@@ -1,0 +1,12 @@
+Technologia: Angular
+Najlepiej jakby ca³y projekt znalaz³ siê na repozytorium Git, z opisanymi commitami, aby by³o jasne co robi³eœ.
+
+
+Do zrobienia
+
+Widok logowania z formularzem (login, has³o), do tego walidacja - zaszyj sobie gdzieœ poprawne dane do logowania. (Logowanie nie musi byæ podpiête do API).
+Poprawne logowanie powinno przekierowaæ na widok z list¹ (tematyka dowolna)
+Na liœcie mo¿liwoœæ dodawania elementu, usuwania, edycja. 
+
+Do Ciebie nale¿y wybór frameworka do Angulara.
+Mile widziane, jakbyœ t¹ listê spi¹³ z online API (ogólno dostêpnym), mo¿esz te¿ wykorzystaæ lokalny serwer np. json-server.
