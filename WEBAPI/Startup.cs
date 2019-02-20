@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WEBAPI
+namespace MichalWojciech_DaVinci
 {
     public class Startup
     {
