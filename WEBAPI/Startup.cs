@@ -20,6 +20,7 @@ namespace MichalWojciech_DaVinci
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddMvc();
         }
 
@@ -29,6 +30,16 @@ namespace MichalWojciech_DaVinci
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder => builder
+                                    .AllowAnyOrigin()
+
+                                    .AllowAnyMethod()
+
+                                    .WithExposedHeaders("content-disposition")
+
+                                    .AllowAnyHeader()
+
+                                    .AllowCredentials());
 
             app.UseMvc();
         }

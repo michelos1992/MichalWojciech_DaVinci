@@ -2,9 +2,7 @@
 	"folders": [
 		{
 			"path": "AngularWebApi"
-		},
-		{
-			"path": "AngularWebApi3"
 		}
-	]
+	],
+	"settings": {}
 }
